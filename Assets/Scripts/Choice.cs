@@ -9,28 +9,48 @@ public class Choice : MonoBehaviour
 {
     public GameObject textBox;
 
-    public string Choice1Scene;
     public GameObject Choice1;
 
-    public string Choice2Scene;
     public GameObject Choice2;
 
-    public string Choice3Scene;
-    public GameObject Choice3;
+    public int Gamestat = 0;
 
-    public int choiceMade = 0; 
+    public GameObject[] Scenes;
 
     public void Choice_1()
     {
-        SceneManager.LoadScene("Choice1Scene", LoadSceneMode.Additive);
+        if (Gamestat == 0)
+        {
+            Gamestat = 1;
+        }
     }
     public void Choice_2()
     {
-        SceneManager.LoadScene("Choice2Scene", LoadSceneMode.Additive);
+        if (Gamestat == 0)
+        {
+            Gamestat = 2;
+        }
     }
-    public void Choice_3()
+
+
+    public void Update()
     {
-        SceneManager.LoadScene("Choice3Scene", LoadSceneMode.Additive);
+
+        for (int i = 0; i < Scenes.Length; i++)
+        {
+
+            if (Gamestat == i)
+            {
+                Scenes[i].SetActive(true);
+            }
+            else if (Gamestat != i)
+            {
+                Scenes[i].SetActive(false);
+            }
+           
+        }
+
+
     }
 
 }
