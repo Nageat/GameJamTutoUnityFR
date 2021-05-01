@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 57ff916298508f84ea7afc4f7e892ed3
+guid: 239e10620f552f246986041af8f54c94
 TrueTypeFontImporter:
   externalObjects: {}
   serializedVersion: 4
@@ -9,7 +9,7 @@ TrueTypeFontImporter:
   characterPadding: 1
   includeFontData: 1
   fontNames:
-  - hello honey - Personal Use
+  - Pixelated
   fallbackFontReferences: []
   customCharacters: 
   fontRenderingMode: 0

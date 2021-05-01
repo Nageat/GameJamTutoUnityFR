@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 57ff916298508f84ea7afc4f7e892ed3
+guid: a2254a1816215074c988fbb7b83c1feb
 TrueTypeFontImporter:
   externalObjects: {}
   serializedVersion: 4
@@ -9,7 +9,7 @@ TrueTypeFontImporter:
   characterPadding: 1
   includeFontData: 1
   fontNames:
-  - hello honey - Personal Use
+  - Caligo
   fallbackFontReferences: []
   customCharacters: 
   fontRenderingMode: 0
